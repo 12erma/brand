@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home pages</title>
+    <style>
+      *{
+        box-sizing: border-box;
+        padding: 0;
+        border: 0;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-between;
+       
+        margin: 0px 10px;
+        transform: translateY(-55px);
+        transition-delay: 2.6s;
+    
+    transition-property: all;
+    transition-duration: 0.5s;
+  
+    transition-timing-function: linear;}
+    .navani{
+     transform: translateY(0px);
+
+
+
+      }
+      .flex1 {
+        display: flex;
+        justify-content: space-between;
+      }
+      .div1 {
+        font-size: 25px;
+    
+        width: 450px;
+    
+      }
+      .divimage {
+        position: relative;
+        z-index: -1;
+        width: 500px;
+        height: 650px;
+        margin-right: 100px;
+        filter: grayscale(100);
+        transform: rotateX(90deg);
+                transition-delay: 2s;
+                transform-origin: 0% 0%;
+    
+    transition-property: all;
+    transition-duration: 0.5s;
+  
+    transition-timing-function: linear;
+      }  
+    .imgani{
+transform: rotateX(0deg);
+    }
+      
+      .brand {
+ 
+        font-size: 125px;
+        letter-spacing: 150px;
+        margin-top: 0;
+        margin-left: 130px;
+        color: red;
+     
+        height: 15px;
+        transform: scale(0);
+    
+        transition-property: all;
+        transition-duration: 0.8s;
+      
+        transition-timing-function: ease-in-out;
+       
+      }
+      .brandani{
+        transform: scale(1);
+       
+      
+        
+
+      }
+    
+      .para1{
+        line-height: 30px;
+        transform: translateX(-500px);
+                transition-delay: 1s;
+              
+    
+    transition-property: all;
+    transition-duration: 0.4s;
+  
+    transition-timing-function: linear;
+
+      }
+
+      .sub{
+      z-index:1;
+      position: absolute;
+      top: 650px;
+   
+
+        margin-left:300px;
+      }
+      a{
+        margin-left: 80px;
+        font-size: 10px;
+        color: red;
+      }
+      .playdiv{
+margin-left: 200px;
+margin-top: 15px;
+height: 40px;
+transform: translateX(-480px);
+                  transition-delay: 1.4s;
+                
+      
+      transition-property: all;
+      transition-duration: 0.2s;
+    
+      transition-timing-function: linear;     
+}
+      .MARKETING{
+        font-size: 60px;
+        margin-left: 100px;
+        height: 90px;
+        transform: translateX(-500px);
+                transition-delay: 1.6s;
+              
+    
+    transition-property: all;
+    transition-duration: 0.4s;
+  
+    transition-timing-function: linear;
+      }
+      .para2{
+        font-size: 15px;
+     font-weight: 1000;
+     padding-left: 130px;
+     
+     transform: translateX(-480px);
+                transition-delay: 2s;
+              
+    
+    transition-property: all;
+    transition-duration: 0.4s;
+  
+    transition-timing-function: linear;}
+    .head{
+       
+     transform: translateX(-480px);
+                transition-delay: 2.4s;
+              
+    
+    transition-property: all;
+    transition-duration: 0.2s;
+  
+    transition-timing-function: linear;
+    }
+    .head1{
+       
+       transform: translateX(-480px);
+                  transition-delay: 2.4s;
+                
+      
+      transition-property: all;
+      transition-duration: 0.2s;
+    
+      transition-timing-function: linear;
+      }
+      .head2{
+       
+       transform: translateX(-480px);
+                  transition-delay: 2.4s;
+                
+      
+      transition-property: all;
+      transition-duration: 0.2s;
+    
+      transition-timing-function: linear;
+      }
+  
+  
+
+      h4{
+        line-height: 0px;
+        font-size: large;
+        margin-left: 130px;
+       }
+      .col{
+color:grey;
+      }
+      .col1{
+color: rgba(69, 69, 69, 0.286);
+      }
+      div.ori{
+        writing-mode: vertical-lr;
+        position: absolute;
+        top: 520px;left: 30px;
+
+        height: 300px;
+        width: 800px;
+        font-size: 10px;
+
+      }
+      .para1ani{
+transform: translateX(0px);
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="nav">
+      <p>For Collaborations +</p>
+      <h1 style="color: red;">CONTENT UNIVERSE</h1>
+      <p>menu</p>
+    </nav>
+    <main>
+      <div class="flex1">
+        <div class="div1">
+         <div class="para1"> WE ARE CONTENT CREATION TEAM AND WE ARE GOING TO MAKE SOME COOL STUFF
+            FOR YOUR</div>
+
+          <h2 class="brand">BRAND</h2>
+          <div class="playdiv"><img src="playlogo.jpg" alt="" width="50px" height="40px">
+            <br> <span style="color: red;">play video </span>
+          <div>about us</div></div>
+          <h2 class="MARKETING">MARKETING </BR>
+        STRATEGYS</h2>
+        <P class="para2">OUR CONTENT MARKETING
+            STRATEGISTS TAKE A SCIENTIFIC APPROACH TO CONTENT CAMPAIGNS, USING HARD DATA TO CRAFT THE PERFECT STRATEGY FOR ANY CLIENT'S GOALS.</P>
+            <h4 class="h4 head">CONTENT CREATION</h4>
+              <h4 class="col head2"> SOCIAL AND PAID</h4>
+               <h4 class="col1 head1">  WEBSITE DESIGN</h4>
+               <div class="ori "> SCROLL FOR ALL SERVICES</div>
+        </div>
+        <div class="img">
+          <img src="sonam.webp" alt="img" class="divimage" />
+  
+          <div class="sub"><a href="#"> SUBSCRIBE FOE
+            OUR NEWS/EVENTS</a>
+       
+        </div>
+        </div>
+      </div>
+    </main>
+
+
+<script>
+   window.onload = function() {
+        const brandBox = document.querySelector('.brand');
+        brandBox.classList.add('brandani');
+
+        const navBox = document.querySelector('.nav');
+        navBox.classList.add('navani');
+        const imgbox = document.querySelector('.divimage');
+        imgbox.classList.add('imgani');
+   
+        const para1 = document.querySelector('.para1');
+        para1.classList.add('para1ani');
+        const para2 = document.querySelector('.para2');
+        para2.classList.add('para1ani');
+    const MARKETING = document.querySelector('.MARKETING');
+        MARKETING.classList.add('para1ani');
+        const playdiv = document.querySelector('.playdiv');
+        playdiv.classList.add('para1ani');
+        const head = document.querySelector('.head');
+        head.classList.add('para1ani');
+        const head1 = document.querySelector('.head1');
+        head1.classList.add('para1ani');
+        const head2 = document.querySelector('.head2');
+        head2.classList.add('para1ani');};
+
+</script>
+  </body>
+</html>
